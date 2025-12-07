@@ -2,47 +2,55 @@
 
 A smart, interactive workout generator built with React that creates personalized exercise routines based on your training preferences.
 
+**Live demo:** [https://athelatic.vercel.app](https://athelatic.vercel.app)
+
 ## Overview
 
 **Athelatic** removes the guesswork from workout planning. Simply select your workout type, target muscle groups, and training goal—the app instantly generates a complete workout with exercise assignments, reps, tempos, and rest periods.
 
 ## Features
 
-###  Smart Workout Generation
-- **Dynamic Exercise Selection**: Intelligently selects exercises from a comprehensive database based on your targets
-- **Compound + Accessory Distribution**: Automatically balances compound and accessory movements according to your training scheme
-- **Tempo & Rep Assignment**: Calculates optimal reps and tempo based on your training goal (strength, power, hypertrophy, etc.)
-- **No Repetition**: Ensures exercise variety within each workout
+### Smart Workout Generation
 
-###  Three-Step Configuration
+* **Dynamic Exercise Selection**: Intelligently selects exercises from a comprehensive database based on your targets
+* **Compound + Accessory Distribution**: Automatically balances compound and accessory movements according to your training scheme
+* **Tempo & Rep Assignment**: Calculates optimal reps and tempo based on your training goal (strength, power, hypertrophy, etc.)
+* **No Repetition**: Ensures exercise variety within each workout
+
+### Three-Step Configuration
+
 1. **Pick Your Poison** - Choose your workout type:
-   - Individual (muscle group focused)
-   - Upper/Lower splits
-   - Push/Pull/Legs
-   - And more...
+
+   * Individual (muscle group focused)
+   * Upper/Lower splits
+   * Push/Pull/Legs
+   * And more...
 
 2. **Lock on Targets** - Select 1-2 muscle groups to focus on
-   - Adaptive selection based on workout type
-   - Clear visual feedback
+
+   * Adaptive selection based on workout type
+   * Clear visual feedback
 
 3. **Become Juggernaut** - Select your training goal:
-   - Strength & Power
-   - Hypertrophy
-   - Endurance
-   - And additional schemes
 
-###  Responsive Design
-- Mobile, tablet, and desktop optimized
-- Dark theme with gradient UI
-- Smooth animations and interactive elements
-- Font Awesome icons for better UX
+   * Strength & Power
+   * Hypertrophy
+   * Endurance
+   * And additional schemes
+
+### Responsive Design
+
+* Mobile, tablet, and desktop optimized
+* Dark theme with gradient UI
+* Smooth animations and interactive elements
+* Font Awesome icons for better UX
 
 ## Tech Stack
 
-- **Frontend**: React 19 with Vite
-- **Styling**: Tailwind CSS v4 with Lightning CSS
-- **Code Quality**: ESLint with React-specific rules
-- **Dev Server**: Vite with Hot Module Replacement (HMR)
+* **Frontend**: React 19 with Vite
+* **Styling**: Tailwind CSS v4 with Lightning CSS
+* **Code Quality**: ESLint with React-specific rules
+* **Dev Server**: Vite with Hot Module Replacement (HMR)
 
 ## Project Structure
 
@@ -109,15 +117,18 @@ npm run lint
 ## Dependencies
 
 ### Main
-- `react` - UI library
-- `react-dom` - React DOM rendering
-- `@tailwindcss/vite` - Tailwind CSS integration
+
+* `react` - UI library
+* `react-dom` - React DOM rendering
+* `@tailwindcss/vite` - Tailwind CSS integration
 
 ### Dev
-- `vite` - Build tool and dev server
-- `eslint` - Code quality
-- `tailwindcss` - Utility-first CSS framework
-- `@vitejs/plugin-react` - React support for Vite
+
+* `vite` - Build tool and dev server
+* `eslint` - Code quality
+* `tailwindcss` - Utility-first CSS framework
+* `@vitejs/plugin-react` - React support for Vite
 
 ---
 
+*Live demo link added above.*
